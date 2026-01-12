@@ -2,6 +2,7 @@
 .top-rated-plants {
   padding: 2rem;
   text-align: center;
+  background-color: white; /* Explicitly setting the background color of the section to white */
 }
 
 .plants-cards {
@@ -11,7 +12,7 @@
 }
 
 .plant-card {
-  background-color: white;
+  background-color: white; /* Plant cards have a white background */
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

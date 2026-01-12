@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Watering",
+    "description": "Water your indoor plants once or twice a week. Always check if the topsoil is dry before watering.",
+    "icon": "💧"
+  },
+  {
+    "id": 2,
+    "title": "Sunlight",
+    "description": "Most indoor plants prefer bright, indirect sunlight. Avoid placing them under direct sun.",
+    "icon": "☀️"
+  },
+  {
+    "id": 3,
+    "title": "Fertilizing",
+    "description": "Use liquid fertilizer once every 2–3 months during the growing season for healthy growth.",
+    "icon": "🌱"
+  }
+]

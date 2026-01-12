@@ -1,18 +1,3 @@
-// import React, { use, useState } from 'react';
-// import { AuthContext } from '../contexts/AuthContext/AuthContext';
-
-// const TopRatedPlants = () => {
-//     const plantsdata = use (AuthContext)
-//     console.log(plantsdata)
-//     return (
-//         <div>
-//             <h2>TopRatedPlants</h2>
-//         </div>
-//     );
-// };
-
-// export default TopRatedPlants;
-
 // src/components/TopRatedPlants/TopRatedPlants.jsx
 import React, { useState, useEffect } from 'react';
 import './TopRatedPlants.css';
@@ -46,7 +31,8 @@ const TopRatedPlants = () => {
 
   return (
     <section className="top-rated-plants">
-      <h2>Top Rated Indoor Plants</h2>
+      <h2 className="section-title">🌿 Top Rated Indoor Plants
+</h2>
       <div className="plants-cards">
         {plants.map((plant) => (
           <div key={plant.id} className="plant-card">
