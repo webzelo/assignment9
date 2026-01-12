@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import './HeroSection.css';
-
+ 
 // import required modules
 import { Parallax, Pagination, Navigation } from 'swiper/modules';
 
