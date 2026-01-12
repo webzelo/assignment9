@@ -1,0 +1,48 @@
+/* src/components/TopRatedPlants/TopRatedPlants.css */
+.top-rated-plants {
+  padding: 2rem;
+  text-align: center;
+}
+
+.plants-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.plant-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.plant-card h3 {
+  font-size: 1.5rem;
+}
+
+.plant-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.view-details {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-details:hover {
+  background-color: #45a049;
+}

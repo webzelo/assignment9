@@ -1,0 +1,74 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light.",
+    "image": "https://images.unsplash.com/photo-1593482892290-f54927ae1bb6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Spider Plant",
+    "category": "Air Purifier",
+    "price": 15,
+    "rating": 4.6,
+    "availableStock": 8,
+    "careLevel": "Medium",
+    "description": "A resilient plant that purifies air and grows well in indirect sunlight.",
+    "image": "https://images.unsplash.com/photo-1611527664689-d430dd2a6774?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "providerName": "GreenThumb Co."
+  },
+  {
+    "plantId": 3,
+    "plantName": "Aloe Vera",
+    "category": "Succulent",
+    "price": 12,
+    "rating": 4.7,
+    "availableStock": 15,
+    "careLevel": "Easy",
+    "description": "A succulent plant known for its healing properties and low maintenance.",
+    "image": "https://images.unsplash.com/photo-1570295835271-04c05b4ed943?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "providerName": "Succulent Haven"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 25,
+    "rating": 4.9,
+    "availableStock": 5,
+    "careLevel": "Medium",
+    "description": "A beautiful flowering plant that thrives in low light and is known for its air-purifying qualities.",
+    "image": "https://images.unsplash.com/photo-1616694547693-b0f829a6cf30?q=80&w=1190&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "providerName": "Blooming Botanicals"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Pothos",
+    "category": "Trailing",
+    "price": 10,
+    "rating": 4.5,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "A low-maintenance trailing plant that can grow in a variety of light conditions.",
+    "image": "https://images.unsplash.com/photo-1596724878582-76f1a8fdc24f?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "providerName": "Indoor Greens"
+  },
+  {
+    "plantId": 6,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Tree",
+    "price": 40,
+    "rating": 4.2,
+    "availableStock": 7,
+    "careLevel": "Hard",
+    "description": "A stylish indoor tree that requires bright indirect light and frequent watering.",
+    "image": "https://images.unsplash.com/photo-1616173976697-efef88b2e860?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "providerName": "Urban Jungle"
+  }
+]
