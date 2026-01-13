@@ -34,64 +34,46 @@ export default function App() {
           className="parallax-bg"
           style={{
             'background-image':
-              'url(https://swiperjs.com/demos/images/nature-1.jpg)',
+              'url(https://images.unsplash.com/photo-1551970634-747846a548cb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
           }}
           data-swiper-parallax="-23%"
         ></div>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 1
+            Create Your Perfect Green Sanctuary
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
+            Bringing Nature to Your Home
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              Explore our curated collection of indoor plants that elevate your home decor and improve air quality. Discover plants that thrive in your space and create a peaceful, vibrant environment.
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 2
+            Breathe Life Into Your Space
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
+            Air-Purifying Plants for Every Home
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              Our handpicked selection of indoor plants not only beautifies your space but also cleanses the air, offering a healthier, more relaxed living atmosphere. Find the perfect plant for your home today.
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 3
+            Nurture Your Green Thumb
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
+            Expert Plant Care for Beginners
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              Whether you’re a seasoned plant lover or a beginner, our expert tips and easy-to-care-for plants will guide you on your journey to creating the perfect indoor garden. Start growing today!
             </p>
           </div>
         </SwiperSlide>
