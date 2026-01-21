@@ -1,32 +1,32 @@
-// src/components/TopRatedPlants/TopRatedPlants.jsx
 import React, { useState, useEffect } from 'react';
 import './TopRatedPlants.css';
+import { NavLink } from 'react-router';
 
 const TopRatedPlants = () => {
-  // State for storing plants data and loading state
+  
   const [plants, setPlants] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch plants data when component mounts
+  
   useEffect(() => {
     const fetchPlants = async () => {
       try {
-        const response = await fetch('/plants.json'); // Fetch data from the JSON file
+        const response = await fetch('/plants.json'); 
         if (!response.ok) throw new Error('Failed to fetch data');
         const data = await response.json();
-        setPlants(data); // Set plants data in state
+        setPlants(data); 
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
-        setLoading(false); // Stop loading after data is fetched
+        setLoading(false); 
       }
     };
 
     fetchPlants();
-  }, []); // Empty dependency array means this runs only once on mount
+  }, []); 
 
   if (loading) {
-    return <div>Loading...</div>; // Show loading message while fetching
+    return <div>Loading...</div>; 
   }
 
   return (
@@ -41,7 +41,8 @@ const TopRatedPlants = () => {
             <p>{plant.category}</p>
             <p>${plant.price}</p>
             <p>Rating: {plant.rating}</p>
-            <button className="view-details">View Details</button>
+            
+            <div className="mt-2"><NavLink className="view-details" to={`/PlantDetailsPage/${plant.plantId}`}>View Details</NavLink></div>
           </div>
         ))}
       </div>

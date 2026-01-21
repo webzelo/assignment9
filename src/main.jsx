@@ -11,6 +11,7 @@ import Profile from './component/Profile/Profile';
 import AuthProvider from './component/contexts/AuthContext/AuthProvider';
 import Home from './component/Home/Home';
 import PrivateRoute from './Routes/PrivateRoute';
+import TopRatedPlants from './component/TopRatedPlants/TopRatedPlants';
 
 
 const router = createBrowserRouter ([
@@ -23,7 +24,13 @@ const router = createBrowserRouter ([
         Component: Home
       }, 
       {
-        path: 'PlantDetailsPage', 
+        path: '/PlantDetailsPage', 
+        element: <PrivateRoute>
+          <TopRatedPlants></TopRatedPlants>
+        </PrivateRoute>
+      },
+      {
+        path: 'PlantDetailsPage/:plantId', 
         element: <PrivateRoute>
           <PlantDetailsPage></PlantDetailsPage>
         </PrivateRoute>

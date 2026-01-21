@@ -1,0 +1,68 @@
+/* src/component/Plant Details Page/PlantDetailsPage.css */
+
+.plant-details-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.plant-details {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.plant-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.plant-info {
+  max-width: 500px;
+  text-align: left;
+}
+
+.plant-info h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.plant-info p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.consultation-form {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.consultation-form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.consultation-form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.book-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.book-button:hover {
+  background-color: #45a049;
+}
